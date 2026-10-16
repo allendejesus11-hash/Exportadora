@@ -1,0 +1,16 @@
+INSERT INTO users (username, password, role) VALUES ('broker', '$2a$10$j/J9xlhxTF8Ata1dprqJbOaQnFlXmjbSrOCPci1pc.kKJXQOzBjQ6', 'ROLE_BROKER');
+INSERT INTO users (username, password, role) VALUES ('contador', '$2a$10$j/J9xlhxTF8Ata1dprqJbOaQnFlXmjbSrOCPci1pc.kKJXQOzBjQ6', 'ROLE_CONTADOR');
+INSERT INTO categorias (nombre) VALUES ('Textil');
+INSERT INTO categorias (nombre) VALUES ('Alimentos');
+INSERT INTO categorias (nombre) VALUES ('Tecnologia');
+INSERT INTO productos (nombre, codigo, precio_unitario, stock) VALUES ('Camisas de algodon', 'P-001', 35.50, 200);
+INSERT INTO productos (nombre, codigo, precio_unitario, stock) VALUES ('Cafe organico', 'P-002', 12.80, 500);
+INSERT INTO productos (nombre, codigo, precio_unitario, stock) VALUES ('Laptops', 'P-003', 950.00, 40);
+INSERT INTO productos (nombre, codigo, precio_unitario, stock) VALUES ('Quinua', 'P-004', 8.90, 800);
+INSERT INTO productos (nombre, codigo, precio_unitario, stock) VALUES ('Pantalones de alpaca', 'P-005', 60.00, 120);
+INSERT INTO envios (fecha, costo, destino, producto_id, categoria_id) VALUES ('2026-09-01', 1200.00, 'Miami', 1, 1);
+INSERT INTO envios (fecha, costo, destino, producto_id, categoria_id) VALUES ('2026-09-10', 1250.00, 'Madrid', 1, 1);
+INSERT INTO envios (fecha, costo, destino, producto_id, categoria_id) VALUES ('2026-09-05', 1870.50, 'Hamburgo', 2, 2);
+INSERT INTO envios (fecha, costo, destino, producto_id, categoria_id) VALUES ('2026-09-12', 3200.00, 'Tokio', 3, 3);
+INSERT INTO envios (fecha, costo, destino, producto_id, categoria_id) VALUES ('2026-09-15', 640.00, 'Santiago', 4, 2);
+INSERT INTO envios (fecha, costo, destino, producto_id, categoria_id) VALUES ('2026-09-20', 980.25, 'Londres', 5, 1);
